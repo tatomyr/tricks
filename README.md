@@ -18,7 +18,7 @@ When we need to try whether some object is defined to properly get to its proper
 let foo;
 foo && foo.bar || 'Default value'
 ```
-While it's a quite straightforward approach, it has a redundant duplication, which could be crucial, especially when 'foo' is a complicated function, or when it's situated inconveniently to be calculated twice. So, in that case, we can use a trick to evade a 'foo is not defined' error:
+While it's a quite straightforward approach, it has a redundant duplication, which could be crucial, especially when 'foo' is a complicated function, or when it's situated inconveniently to be calculated twice. So, in that case, we can use a trick to evade a 'Cannot read property 'bar' of undefined' error:
 ``` javascript
 (foo || {}).bar
 ```
