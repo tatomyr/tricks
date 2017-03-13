@@ -45,4 +45,4 @@ for (let i = 1; i <= 5; i++) {
   }, i*1000);
 }
 ```
-See the difference between this two snippets?
+See the difference between this two snippets? It is why you should avoid `var` definition.
