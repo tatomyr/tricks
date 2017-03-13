@@ -31,7 +31,7 @@ or even more expressively:
 
 Try
 ``` javascript
-for (var i = 0; i < 5; i++) {
+for (var i = 1; i <= 5; i++) {
   setTimeout(() => {
     console.info(i);
   }, i*1000);
@@ -39,7 +39,7 @@ for (var i = 0; i < 5; i++) {
 ```
 vs
 ``` javascript
-for (let i = 0; i < 5; i++) {
+for (let i = 1; i <= 5; i++) {
   setTimeout(() => {
     console.info(i);
   }, i*1000);
