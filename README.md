@@ -2,14 +2,14 @@
 
 ### Content
 
-##### JS Tricks
+* JS Tricks
 
-* [I Don't Know JS](https://tatomyr.github.io/tricks/js-tricks/i-dont-know-js.md)
-* [Funny Functions](https://tatomyr.github.io/tricks/js-tricks/funny-function.md)
+  * [I Don't Know JS](https://github.com/tatomyr/tricks/blob/master/js-tricks/i-dont-know-js.md)
+  * [Funny Functions](https://github.com/tatomyr/tricks/blob/master/js-tricks/funny-function.md)
 
-##### Linux Tricks
+* Linux Tricks
 
-* [Scroll Direction Reverse on Ubuntu](https://tatomyr.github.io/tricks/linux-tricks/scroll-direction-reverse.md)
+  * [Scroll Direction Reverse on Ubuntu](https://github.com/tatomyr/tricks/blob/master/linux-tricks/scroll-direction-reverse.md)
 
 ---
 
