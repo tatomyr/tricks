@@ -26,6 +26,10 @@ or even more expressively:
 ``` javascript
 (foo || { bar: 'Default value' }).bar
 ```
+In case `foo` is a function it's possible to write:
+``` javascript
+(foo || (() => 'Default response'))()
+```
 
 ### 3
 
