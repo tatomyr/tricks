@@ -50,3 +50,13 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 See the difference between this two snippets? It is why you should avoid `var` definition.
+
+### 4 Destruction
+
+``` javascript
+
+const obj = { foo: 1 };
+const { foo } = obj;
+const { ['foo']: bar } = obj;
+```
+Does `foo === bar`?
