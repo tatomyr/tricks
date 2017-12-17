@@ -33,3 +33,11 @@ To set reverse mouse wheel scrolling direction on Ubuntu 16.04 (perhaps on other
   Changes will be valid until system restart
 
   * sake of automatization you can add the task in 'Startup Applications' and it will run each time your PC starts. Sometimes there are few records refer to your physical device. Since you should set props for all of them, you have to add an appropriate amount of startup programs consequently, not chaining line.
+
+### Lubuntu notes
+
+As Lubuntu uses `libinput`, we have to enable the natural scrolling in such way. Open
+```
+sudo -H nano /usr/share/X11/xorg.conf.d/40-libinput.conf
+```
+and add `Option "NaturalScrolling" "true"` in an appropriate section(s).
