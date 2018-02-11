@@ -5,7 +5,7 @@ The most common way is to use an aray of objects:
 const arr = [
   { name: 'a', value: 1 },
   { name: 'b', value: 2 },
-  { name: 'c'. value: 3 },
+  { name: 'c', value: 3 },
 ];
 ```
 
