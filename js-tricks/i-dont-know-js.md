@@ -60,3 +60,13 @@ const { foo } = obj;
 const { ['foo']: bar } = obj;
 ```
 Does `foo === bar`?
+
+### 5 Regex
+
+``` javascript
+const s = 'qwerty'
+const re = /qwe/g
+re.test(s) // true
+re.test(s) // false
+```
+:)
