@@ -70,3 +70,12 @@ re.test(s) // true
 re.test(s) // false
 ```
 :)
+
+### 6 Nested Objects
+
+```
+const a = {}
+a.a = a
+
+a === a.a // true
+```
