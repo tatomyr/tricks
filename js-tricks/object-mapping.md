@@ -1,7 +1,7 @@
 # Mapping through an object like an array
 
 ```javascript
-// mapObject :: (a -> b) -> {a} -> {b}
+// mapObject :: (a -> b) -> {k: a} -> {k: b}
 const mapObject = f => obj => 
   Object.entries(obj).reduce(($, [key, value]) => ({ ...$, [key]: f(value) }), {})
 ```
